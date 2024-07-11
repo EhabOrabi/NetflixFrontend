@@ -12,7 +12,6 @@ pipeline {
             steps {
                 sh '''
                     # your pipeline commands here....
-                    npm install
                     npm run build
                     # for example list the files in the pipeline workdir
                     ls
